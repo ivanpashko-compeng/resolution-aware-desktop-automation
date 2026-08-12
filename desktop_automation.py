@@ -40,20 +40,20 @@ class COCMacro:
 
 
         # Reading Files
-        with open("coordinateslist.csv", "r") as file1:
+        with open("config/coordinateslist.csv", "r") as file1:
             coordinateslist = ast.literal_eval(file1.read())
 
 
 
-        with open("troopdeployment.csv", "r") as file2:
+        with open("config/troopdeployment.csv", "r") as file2:
             troopdeployment = ast.literal_eval(file2.read())
 
 
-        with open("menubuttons.csv", "r") as file3:
+        with open("config/menubuttons.csv", "r") as file3:
             menubuttons = ast.literal_eval(file3.read())
 
 
-        with open("eventdeployment.csv", "r") as file4:
+        with open("config/eventdeployment.csv", "r") as file4:
             eventdeployment = ast.literal_eval(file4.read())
 
 
